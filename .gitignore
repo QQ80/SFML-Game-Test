@@ -1,0 +1,11 @@
+# Builds
+bin
+obj
+
+# External Libraries
+ext
+
+# IDE files
+*.cbp
+*.depend
+*.layout
