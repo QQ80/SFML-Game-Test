@@ -1,6 +1,6 @@
 # Builds
-bin
-obj
+*/bin
+*/obj
 
 # External Libraries
 ext
@@ -9,3 +9,4 @@ ext
 *.cbp
 *.depend
 *.layout
+*.workspace
