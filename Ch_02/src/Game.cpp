@@ -6,18 +6,18 @@ const sf::Time Game::TimePerFrame = sf::seconds(1.f/60.f);
 Game::Game()
 : mWindow(sf::VideoMode(640, 480), "SFML Application")
 , mPlayer()
-, mTexture()
+, mTextures()
 , mIsMovingUp(false)
 , mIsMovingDown(false)
 , mIsMovingLeft(false)
 , mIsMovingRight(false)
 {
-    if (!mTexture.loadFromFile("Media/Textures/Eagle.png"))
-    {
-        // Handle Error
-    }
-    mPlayer.setTexture(mTexture);
-    mPlayer.setPosition(100.f, 100.f);
+    mTextures.load(TexturesID::Landscape, "Media/Textures/Desert.png");
+    mTextures.load(TexturesID::Airplane, "Media/Textures/Eagle.png");
+
+    mLandscape.setTexture(mTextures.get(TexturesID::Landscape));
+    mPlayer.setTexture(mTextures.get(TexturesID::Airplane));
+    mPlayer.setPosition(200.f, 200.f);
 }
 
 void Game::run()
@@ -87,6 +87,7 @@ void Game::update(sf::Time deltaTime)
 void Game::render()
 {
     mWindow.clear();
+    mWindow.draw(mLandscape);
     mWindow.draw(mPlayer);
     mWindow.display();
 }

@@ -1,7 +1,13 @@
-#ifndef GAME_HPP
-#define GAME_HPP
-
+#pragma once
 #include <SFML/Graphics.hpp>
+
+#include "ResourceHolder.hpp"
+
+enum class TexturesID
+{
+    Landscape,
+    Airplane,
+};
 
 class Game
 {
@@ -20,9 +26,8 @@ private:
 	static const sf::Time	TimePerFrame;
 
     sf::RenderWindow mWindow;
-    sf::Texture mTexture;
+    ResourceHolder<sf::Texture, TexturesID> mTextures;
     sf::Sprite mPlayer;
+    sf::Sprite mLandscape;
     bool mIsMovingUp, mIsMovingDown, mIsMovingLeft, mIsMovingRight;
 };
-
-#endif // GAME_HPP
