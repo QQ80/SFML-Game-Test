@@ -1,0 +1,13 @@
+### Ch_01 Folder ###
+
+# Builds
+bin
+obj
+
+# IDE files
+*.cbp
+*.layout
+*.depend
+
+# Temp files
+*~

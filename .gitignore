@@ -1,12 +1,9 @@
-# Builds
-*/bin
-*/obj
+## Root Project folder ##
 
 # External Libraries
 ext
 
 # IDE files
-*.cbp
-*.depend
-*.layout
 *.workspace
+*.workspace.layout
+
