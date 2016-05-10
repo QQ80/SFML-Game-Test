@@ -44,14 +44,19 @@
 		<Unit filename="Media/Textures/Eagle.png" />
 		<Unit filename="include/Aircraft.hpp" />
 		<Unit filename="include/Entity.hpp" />
+		<Unit filename="include/Game.hpp" />
+		<Unit filename="include/ResourceHolder.hpp" />
+		<Unit filename="include/ResourceHolder.inl" />
+		<Unit filename="include/ResourceIdentifiers.hpp" />
 		<Unit filename="include/SceneNode.hpp" />
+		<Unit filename="include/SpriteNode.hpp" />
+		<Unit filename="include/World.hpp" />
 		<Unit filename="src/Aircraft.cpp" />
 		<Unit filename="src/Entity.cpp" />
 		<Unit filename="src/Game.cpp" />
-		<Unit filename="src/Game.hpp" />
-		<Unit filename="src/ResourceHolder.hpp" />
-		<Unit filename="src/ResourceHolder.inl" />
 		<Unit filename="src/SceneNode.cpp" />
+		<Unit filename="src/SpriteNode.cpp" />
+		<Unit filename="src/World.cpp" />
 		<Unit filename="src/main.cpp" />
 		<Extensions>
 			<code_completion />

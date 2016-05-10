@@ -428,30 +428,33 @@
 	<vector>
 	<memory>
 
-1451760962 source:/home/anthony/Desktop/Projects/SFML Game Development/Ch_03/src/Aircraft.cpp
-	"Aircraft.hpp"
+1462893111 source:/home/anthony/Desktop/Projects/SFML Game Development/Ch_03/src/Aircraft.cpp
 	<SFML/Graphics/RenderTarget.hpp>
 	<SFML/Graphics/RenderStates.hpp>
+	"Aircraft.hpp"
+	"ResourceHolder.hpp"
 
-1462871098 /home/anthony/Desktop/Projects/SFML Game Development/Ch_03/include/Aircraft.hpp
+1462878402 /home/anthony/Desktop/Projects/SFML Game Development/Ch_03/include/Aircraft.hpp
 	<SFML/Graphics/Sprite.hpp>
 	"Entity.hpp"
+	"ResourceIdentifiers.hpp"
 
-1462871079 /home/anthony/Desktop/Projects/SFML Game Development/Ch_03/include/Entity.hpp
+1462879302 /home/anthony/Desktop/Projects/SFML Game Development/Ch_03/include/Entity.hpp
 	<SFML/System/Vector2.hpp>
 	"SceneNode.hpp"
 
-1462871035 /home/anthony/Desktop/Projects/SFML Game Development/Ch_03/include/SceneNode.hpp
+1462892413 /home/anthony/Desktop/Projects/SFML Game Development/Ch_03/include/SceneNode.hpp
 	<SFML/Graphics/Transformable.hpp>
 	<SFML/Graphics/Drawable.hpp>
 	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Time.hpp>
 	<vector>
 	<memory>
 
-1451759344 source:/home/anthony/Desktop/Projects/SFML Game Development/Ch_03/src/Entity.cpp
+1462879248 source:/home/anthony/Desktop/Projects/SFML Game Development/Ch_03/src/Entity.cpp
 	"Entity.hpp"
 
-1451754034 source:/home/anthony/Desktop/Projects/SFML Game Development/Ch_03/src/Game.cpp
+1462894547 source:/home/anthony/Desktop/Projects/SFML Game Development/Ch_03/src/Game.cpp
 	"Game.hpp"
 
 1451752162 /home/anthony/Desktop/Projects/SFML Game Development/Ch_03/src/Game.hpp
@@ -468,22 +471,21 @@
 
 1451751208 /home/anthony/Desktop/Projects/SFML Game Development/Ch_03/src/ResourceHolder.inl
 
-1451752016 source:/home/anthony/Desktop/Projects/SFML Game Development/Ch_03/src/main.cpp
-	<SFML/Graphics.hpp>
+1462873022 source:/home/anthony/Desktop/Projects/SFML Game Development/Ch_03/src/main.cpp
 	<iostream>
 	"Game.hpp"
 
-1451760432 source:/home/anthony/Desktop/Projects/SFML Game Development/Ch_03/src/SceneNode.cpp
+1462881741 source:/home/anthony/Desktop/Projects/SFML Game Development/Ch_03/src/SceneNode.cpp
 	"SceneNode.hpp"
 	<utility>
 	<algorithm>
 	<cassert>
 
-1462872558 /home/anthony/Desktop/Projects/SFML Game Development/Ch_03/include/Game.hpp
+1462894559 /home/anthony/Desktop/Projects/SFML Game Development/Ch_03/include/Game.hpp
 	<SFML/Graphics.hpp>
-	"ResourceHolder.hpp"
+	"World.hpp"
 
-1462872565 /home/anthony/Desktop/Projects/SFML Game Development/Ch_03/include/ResourceHolder.hpp
+1462881572 /home/anthony/Desktop/Projects/SFML Game Development/Ch_03/include/ResourceHolder.hpp
 	<map>
 	<string>
 	<memory>
@@ -492,4 +494,27 @@
 	"ResourceHolder.inl"
 
 1451751208 /home/anthony/Desktop/Projects/SFML Game Development/Ch_03/include/ResourceHolder.inl
+
+1462890267 /home/anthony/Desktop/Projects/SFML Game Development/Ch_03/include/ResourceIdentifiers.hpp
+
+1462891837 /home/anthony/Desktop/Projects/SFML Game Development/Ch_03/include/World.hpp
+	<SFML/System/NonCopyable.hpp>
+	<SFML/Graphics/View.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<array>
+	"ResourceHolder.hpp"
+	"ResourceIdentifiers.hpp"
+	"SceneNode.hpp"
+	"SpriteNode.hpp"
+	"Aircraft.hpp"
+
+1462894337 /home/anthony/Desktop/Projects/SFML Game Development/Ch_03/include/SpriteNode.hpp
+	"SceneNode.hpp"
+	<SFML/Graphics.hpp>
+
+1462894322 source:/home/anthony/Desktop/Projects/SFML Game Development/Ch_03/src/SpriteNode.cpp
+	"SpriteNode.hpp"
+
+1462895026 source:/home/anthony/Desktop/Projects/SFML Game Development/Ch_03/src/World.cpp
+	"World.hpp"
 
