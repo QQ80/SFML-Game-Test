@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="SFML Game Development">
+		<Project filename="Ch_01/Ch_01.cbp" />
+		<Project filename="Ch_02/Ch_02.cbp" />
+		<Project filename="Ch_03/Ch_03.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>

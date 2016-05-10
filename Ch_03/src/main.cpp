@@ -1,4 +1,3 @@
-#include <SFML/Graphics.hpp>
 #include <iostream>
 
 #include "Game.hpp"
@@ -12,7 +11,9 @@ int main()
     }
     catch (std::runtime_error& e)
     {
-        std::cout << "Exception: " << e.what() << std::endl;
+        std::cout << "Exception: "
+                  << e.what()
+                  << std::endl;
         return 1;
     }
 

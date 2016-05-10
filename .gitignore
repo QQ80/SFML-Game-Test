@@ -1,9 +1,0 @@
-## Root Project folder ##
-
-# External Libraries
-ext
-
-# IDE files
-*.workspace
-*.workspace.layout
-

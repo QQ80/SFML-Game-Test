@@ -1,5 +1,4 @@
-#ifndef SCENENODE_HPP
-#define SCENENODE_HPP
+#pragma once
 
 #include <SFML/Graphics/Transformable.hpp>
 #include <SFML/Graphics/Drawable.hpp>
@@ -11,23 +10,21 @@
 class SceneNode : public sf::Transformable, public sf::Drawable,
                   private sf::NonCopyable
 {
-public:
+  public:
     typedef std::unique_ptr<SceneNode> Ptr;
 
-public:
+  public:
                         SceneNode();
     void                attachChild(Ptr child);
     Ptr                 detachChild(const SceneNode& node);
-private:
+  private:
     virtual void	    draw(sf::RenderTarget& target,
                              sf::RenderStates states) const final;
     virtual void		drawCurrent(sf::RenderTarget& target,
                                     sf::RenderStates states) const;
     void				drawChildren(sf::RenderTarget& target,
                                      sf::RenderStates states) const;
-private:
+  private:
     std::vector<Ptr>    mChildren;
     SceneNode*          mParent;
 };
-
-#endif // SCENENODE_HPP

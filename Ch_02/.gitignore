@@ -4,10 +4,5 @@
 bin
 obj
 
-# IDE files
-*.cbp
-*.layout
-*.depend
-
 # Temp files
 *~

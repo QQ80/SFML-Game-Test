@@ -1,26 +1,23 @@
-#ifndef AIRCRAFT_HPP
-#define AIRCRAFT_HPP
+#pragma once
 
 #include <SFML/Graphics/Sprite.hpp>
 #include "Entity.hpp"
 
 class Aircraft : public Entity
 {
-public:
+  public:
     enum class Type
     {
         Eagle,
         Raptor,
     };
 
-public:
+  public:
     explicit Aircraft(Type type);
     virtual void drawCurrent(sf::RenderTarget& target,
                              sf::RenderStates states) const;
 
-private:
+  private:
     Type mType;
     sf::Sprite mSprite;
 };
-
-#endif // AIRCRAFT_HPP

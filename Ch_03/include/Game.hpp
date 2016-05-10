@@ -1,6 +1,6 @@
 #pragma once
-#include <SFML/Graphics.hpp>
 
+#include <SFML/Graphics.hpp>
 #include "ResourceHolder.hpp"
 
 enum class TexturesID
@@ -11,17 +11,17 @@ enum class TexturesID
 
 class Game
 {
-public:
+  public:
     Game();
     void run();
 
-private:
+  private:
     void processEvents();
     void update(sf::Time deltaTime);
     void render();
     void handlePlayerInput(sf::Keyboard::Key key, bool isPressed);
 
-private:
+  private:
     static const float		PlayerSpeed;
 	static const sf::Time	TimePerFrame;
 
