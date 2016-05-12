@@ -4,5 +4,6 @@
 		<Project filename="Ch_01/Ch_01.cbp" />
 		<Project filename="Ch_02/Ch_02.cbp" />
 		<Project filename="Ch_03/Ch_03.cbp" />
+		<Project filename="Ch_04/Ch_04.cbp" />
 	</Workspace>
 </CodeBlocks_workspace_file>
