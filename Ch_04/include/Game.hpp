@@ -17,7 +17,7 @@ class Game
 
   private:
     static const float		PlayerSpeed;
-	static const sf::Time	TimePerFrame;
+    static const sf::Time	TimePerFrame;
 
     sf::RenderWindow mWindow;
     World mWorld;
