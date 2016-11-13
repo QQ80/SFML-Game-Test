@@ -2,6 +2,7 @@
 
 #include <functional>
 #include <SFML/System/Time.hpp>
+#include "SceneNode.hpp"
 
 struct Command
 {

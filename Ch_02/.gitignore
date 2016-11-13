@@ -1,8 +1,7 @@
 ### Ch_02 Folder ###
 
 # Builds
-bin
-obj
+build
 
 # Temp files
 *~
