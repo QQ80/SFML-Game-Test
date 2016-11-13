@@ -6,7 +6,6 @@ World::World(sf::RenderWindow& window)
 , mTextures()
 , mSceneGraph()
 , mSceneLayers()
-
 , mWorldBounds(
     0.f,                     // Left X position
     0.f,                     // Top Y position
